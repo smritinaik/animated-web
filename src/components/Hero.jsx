@@ -65,7 +65,7 @@ const Hero = () => {
 
   useGSAP(() => {
     gsap.set("#video-frame", {
-      clipPath: "polygon(50% 0, 52% 0, 70% 90%, 0 40%)",
+      clipPath: "polygon(20% 0, 72% 0, 88% 90%, 0 95%)",
       borderRadius: "0% 0% 40% 10%",
     });
     gsap.from("#video-frame", {
@@ -80,7 +80,7 @@ const Hero = () => {
       },
     });
   });
-
+  
   const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
 
   return (
