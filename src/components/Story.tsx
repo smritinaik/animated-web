@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import gsap from "gsap";
-import { useRef } from "react";
-
 import Button from "./Button";
 import AnimatedTitle from "./AnimatedTitle";
 
 const FloatingImage = () => {
-  const frameRef = useRef(null);
+  // Explicitly define the type of the ref
+  const frameRef = useRef<HTMLImageElement | null>(null);
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: React.MouseEvent) => {
     const { clientX, clientY } = e;
     const element = frameRef.current;
 
