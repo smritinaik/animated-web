@@ -4,6 +4,7 @@ import About from './components/About'
 import NavBar from './components/Navbar'
 import Features from './components/Features'
 import Story from './components/Story'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
       <NavBar/>
       <Features/>
       <Story/>
+      <Contact/>
+      <Footer/>
 
     </main>
   )
