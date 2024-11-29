@@ -1,8 +1,36 @@
-# React + Vite
+Gaming-Themed Website UI
+This is a gaming-themed website UI built using React.js, Tailwind CSS, and GSAP. The project focuses on delivering an interactive and visually engaging user experience with smooth animations and modern design techniques.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FEATURES
+Dynamic animations powered by GSAP.
 
-Currently, two official plugins are available:
+Responsive design optimized for various screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Modern UI styled with Tailwind CSS.
+
+Component-based architecture using React.js.
+
+
+TECHNOLOGIES USED
+React.js for building the UI components and managing the application state.
+
+Tailwind CSS for styling with a utility-first CSS framework.
+
+GSAP for creating animations and transitions.
+
+
+SETUP AND INSTALLATION
+1. Clone the repository by running the command: git clone https://github.com/smritinaik/animated-web
+
+2. Navigate to the project directory with cd animated-web.
+
+3. Install the required dependencies using npm install.
+
+4. Start the development server with npm start.
+
+5. Open your browser and visit (http://localhost:5173/) to view the project.
+
+
+
+THANK YOU!!
+~ SMRITI NAIK
