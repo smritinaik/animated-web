@@ -24,7 +24,7 @@ SETUP AND INSTALLATION
 
 2. Navigate to the project directory with cd animated-web.
 
-3. Install the required dependencies using npm install.
+3. Install the required dependencies using npm run dev.
 
 4. Start the development server with npm start.
 
